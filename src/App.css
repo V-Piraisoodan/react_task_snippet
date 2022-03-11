@@ -5,17 +5,17 @@
 body{
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #f52b6ef3, #f7b5f28f);
+  background: linear-gradient(to right, #f52b6ef3, #e22fd3e3);
 }
 /* tittle css */
 .tittle{
   margin: 35px 0px 0px 0px;
-  font-size: 38px;
+  font-size: 45px;
   letter-spacing: 1.5px;
   height: 45px;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 4px 5px 5px rgba(222, 245, 209, 0.705), 0 0 25px rgb(145, 243, 247), 0 0 5px rgb(69, 224, 255);
-  color: rgb(17, 20, 18);
+  text-shadow: 4px 5px 5px rgba(32, 36, 31, 0.822), 0 0 25px rgb(41, 30, 194), 0 0 5px rgb(30, 49, 28);
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 /* container css */
@@ -97,9 +97,9 @@ font-size: 16px;
 background-color: rgb(9, 4, 80);
 }
 @media (min-width:992px){
-  .child:hover {
+  .child:hover  {
     transition: 0.2s;
     margin-top: 53px;
-    box-shadow: 0 10px 30px 0 rgba(9, 3, 66, 0.76);
+    box-shadow: 0 10px 30px 0 rgba(8, 2, 36, 0.89);
    }
   }
